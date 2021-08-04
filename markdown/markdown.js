@@ -13,7 +13,7 @@ function createMarkdown(answers) {
     3. [License](#License)
     4. [Contributing](#Contributing)
     5. [Tests](#Tests)
-    6. [Questions](#Questions)
+    6. [Github](#Questions)
   
     ## Installation
     ${answers.Installation}
