@@ -11,5 +11,8 @@
     "url": "github.com/cal750/README-generator"
   },
   "author": "Seth Nightingale",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  }
 }
