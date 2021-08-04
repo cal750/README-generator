@@ -30,9 +30,9 @@ const promptUser = () => {
             message: "How does a user use this application?",
         },
         {
+            type:"list",
+            message: "What is the license for this project?",
             name: "License",
-            type: "List",
-            message: "Please choose a license for the application",
             choices: [
                 "MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)", 
                 "APACHE 2.0 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)", 
@@ -51,7 +51,7 @@ const promptUser = () => {
             message: "How does the user test the application?",
         },
         {
-            name: "Github",
+            name: "Questions",
             type: "input",
             message: "Please enter your Github username",
         },

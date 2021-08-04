@@ -31,7 +31,11 @@ function createMarkdown(answers) {
   ${answers.Tests}
   
   ## Questions
-  ${answers.Questions}
+
+  If you have any questions, please do not hesitate to
+  contact me
+  
+  https://github.com/${answers.Questions}
   ${answers.LinkedIn}
   ${answers.Email}
     
