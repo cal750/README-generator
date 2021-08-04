@@ -1,5 +1,5 @@
+//function to create the contents of README
 function createMarkdown(answers) {
-    //function to generate answers for my README
     return  `
     ## Title
     ${answers.Title}
@@ -38,4 +38,5 @@ function createMarkdown(answers) {
   `;
   }
   
+  //exports the data in the file for use in the index.js
   module.exports = {createMarkdown};
